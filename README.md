@@ -1,2 +1,2 @@
-# pauliviktor.github.io
+# Виктор Паули
 Мой первый сайт
