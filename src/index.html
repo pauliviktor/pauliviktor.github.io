@@ -5,57 +5,65 @@
     <title>Андрей Браун - Веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
+  
+   <!--Загрузка
+    <div class="loader"></div>
+    -->
      <header>
         <!--Навигация-->
          <nav>
              <div class="logo">Андрей Браун</div>
              <div class="menu">
                 <ul>
-                 <li>Обо мне</li>
-                 <li>Услуги</li>
-                 <li>Кейсы</li>
-                 <li>Прайсы</li>
-                 <li>Отзывы</li>
-                 <li>Контакты</li>
+                 <li><a href="#">Обо мне</a></li>
+                 <li><a href="#">Услуги</a></li>
+                 <li><a href="#">Кейсы</a></li>
+                 <li><a href="#">Прайсы</a></li>
+                 <li><a href="#">Отзывы</a></li>
+                 <li><a href="#">Контакты</a></li>
              </ul>
              </div>
          </nav>
      </header>
      
+     
+     <main>
+     
      <!--Первый слайд-->
-     <div class="main">
+     <section class="main">
          <div class="title__container">
              <H1>Привет <br> Я Андрей Браун</H1>
              <h4>Фулл стек веб-разработчик</h4>
-             <input type="submit" value="Обо мне">
-             <input type="submit" value="Мои работы">
+             <input type="button" value="Обо мне">
+             <input type="button" value="Мои работы">
          </div>
-     </div>
+     </section>
      
-     <!--Обо мне-->
+     <!--Обо мне--> 
      <div class="about_me">
-        <h3>ОБО МНЕ</h3>
+        <h3 class="animate__animated animate__bounce">ОБО МНЕ</h3>
         <div class="fline">
         <img src="img/fline.jpg" alt="картинкой любуется модератор">
          </div>
          <div class="bk_boy">
-        <img src="img/bkboy.png" alt="картинкой любуется модератор">        
+        <img class="animate__animated animate__fadeIn" src="img/bkboy.png" alt="картинкой любуется модератор">        
          </div>
          
         <div class="my_info">    
-        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maiores quidem mollitia, dolores quibusdam harum est repudiandae, ipsum nihil saepe eius iusto ex recusandae odit. Cum odio provident aliquam, excepturi quos? Impedit, porro, autem.</p>
+        <p class="animate__animated animate__backInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id maiores quidem mollitia, dolores quibusdam harum est repudiandae, ipsum nihil saepe eius iusto ex recusandae odit. Cum odio provident aliquam, excepturi quos? Impedit, porro, autem.</p>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sint, ratione commodi velit quas sunt. Tenetur quidem officiis quis distinctio quae asperiores odio. Quasi explicabo ullam, debitis ut. Ab velit aut, natus ratione autem?.</p>
+        <p class="animate__animated animate__backInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sint, ratione commodi velit quas sunt. Tenetur quidem officiis quis distinctio quae asperiores odio. Quasi explicabo ullam, debitis ut. Ab velit aut, natus ratione autem?.</p>
          </div>
          
-        <button class="l_res"><img src="img/loading_icon.png" alt=""> Скачать резюме </button>
+        <button class="l_res"><img src="img/loading_icon.jpg" alt=""> Скачать резюме </button>
          </div>
      
-        <!--Что я умею-->
+    <!--Что я умею-->
      <div class="whatcanido">
-         <h3>ЧТО Я УМЕЮ</h3>
+         <h3 class="animate__animated animate__bounce">ЧТО Я УМЕЮ</h3>
          
          <div class="fline2">
          <img src="img/fline.jpg" alt="картинкой любуется модератор">
@@ -98,7 +106,7 @@
       
       <!--Кейсы-->
       <div class="cases">
-      <h3>КЕЙСЫ</h3>
+      <h3 class="animate__animated animate__bounce">КЕЙСЫ</h3>
       <div class="fline3">
          <img src="img/fline.jpg" alt="картинкой любуется модератор">
          </div>
@@ -124,7 +132,7 @@
     
     <!--Расчет стоймост-->
      <div class="calculator">
-         <h3>Расчет стоймости</h3>
+         <h3 class="animate__animated animate__bounce">Расчет стоймости</h3>
          <div class="forms">
          <h4>ТИП САЙТА</h4>
        <select name="list"  id="list1">
@@ -151,18 +159,19 @@
         <img src="img/line_res.png" alt="">
          
      </div>      
-     </div>     
      </div>
-     
-     <div class="result">
+       <div class="result">
         <h5>Сроки</h5>
         <h5>Стоимость</h5>  
-    </div>
+    </div>     
+     </div>
+     
+   
      
      <!--Немного статистики-->
      <div class="statistics">
         
-         <h3>НЕМНОГО СТАТИСТИКИ</h3>
+         <h3 class="animate__animated animate__bounce">НЕМНОГО СТАТИСТИКИ</h3>
          
          <div class="fline4">
          <img src="img/fline.jpg" alt="картинкой любуется модератор">
@@ -208,7 +217,7 @@
      <!--Отзывы-->
      <div class="reviews">
      
-     <h3>ОТЗЫВЫ</h3>
+     <h3 class="animate__animated animate__bounce">ОТЗЫВЫ</h3>
      <div class="fline5">
          <img src="img/fline.jpg" alt="картинкой любуется модератор">
          </div>
@@ -225,7 +234,7 @@
     
     <!--МОИ КОНТАКТЫ-->
     <div class="contacts">
-    <h3>МОИ КОНТАКТЫ</h3>
+    <h3 class="animate__animated animate__bounce">МОИ КОНТАКТЫ</h3>
     
     <div class="fline6">
          <img src="img/fline.jpg" alt="картинкой любуется модератор">
@@ -268,22 +277,22 @@
     </div>
         <!--Форма обратной связи-->
         
-        <div class="form_action">
+        <div class="form_action" >
         <h5>Оставить мне сообщение</h5>
         
         <div class="text_input1">
         <form action="#">
-        <input type="text" name="text_input" value="" placeholder="Имя">
+        <input class="animate__animated animate__bounceInLeft" type="text" name="text_input" value="" placeholder="Имя">
     </form>
         </div>
     <div class="text_input2">
     <form action="#">
-        <input type="text" name="text_input" value="" placeholder="Email">
+        <input class="animate__animated animate__bounceInRight" type="text" name="text_input" value="" placeholder="Email">
     </form>
     </div>
     
     <div>
-    <textarea name="name1" id="1" cols="30" rows="10">Сообщение</textarea>
+    <textarea class="animate__animated animate__bounceInUp" name="name1" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
     </div>
     
     <button class="send">Отправить</button>
@@ -308,9 +317,12 @@
     </div>
     </div>
     
-<footer class="foot">
+    <footer class="foot">
          <h6>Copyriht 2021 Андрей Браун. Desihn by Web</h6>
      </footer>
+    </main>
+    
+
      
       </body>     
 </html>
